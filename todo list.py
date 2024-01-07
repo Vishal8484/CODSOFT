@@ -31,11 +31,11 @@ def clear_list():
         listbox.delete(0, tk.END)
         completed_listbox.delete(0, tk.END)
 
-# Create the main window
+#Create the window
 root = tk.Tk()
 root.title("Interactive To-Do List")
 
-# Create and pack widgets
+#Create and pack widgets
 entry = tk.Entry(root, width=40)
 entry.pack(pady=10)
 
