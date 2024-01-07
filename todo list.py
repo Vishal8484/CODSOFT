@@ -35,7 +35,7 @@ def clear_list():
 root = tk.Tk()
 root.title("Interactive To-Do List")
 
-#Create and pack widgets
+#Create pack widgets
 entry = tk.Entry(root, width=40)
 entry.pack(pady=10)
 
